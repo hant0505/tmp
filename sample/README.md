@@ -2,7 +2,7 @@
 
 ## Cấu trúc project
 ```
-sql_intelligence/
+sample/
 ├── agents/
 │   └── agents.py          # 4 agents: Planner, Generator, Executor, Interpreter
 ├── tools/
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Bước 2 — Cấu hình API Key
 
-Tạo file `.env` trong thư mục `sql_intelligence/`:
+Tạo file `.env` trong folder sample
 
 ```bash
 # Dùng Gemini (theo SDS của nhóm)
